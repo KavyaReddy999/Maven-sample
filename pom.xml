@@ -31,10 +31,10 @@
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
       
-<plugin> <groupId>sample1.java</groupId>
-<artifactId>sample-java</artifactId> <version>1.2.1</version>
+<plugin> <groupId>org.codehaus.mojo</groupId>
+<artifactId>exec-maven-plugin</artifactId> <version>1.2.1</version>
 <configuration>
-<mainClass>com.digi.App</mainClass> <arguments>
+<mainClass>sample1.java.App</mainClass> <arguments>
 <argument>-jar</argument>
 <argument>target/*.jar</argument> </arguments>
 </configuration> </plugin>
